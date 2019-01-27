@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>个人注册</title>
+  <link rel="stylesheet" href="css/login.css"/>
+  <link rel="stylesheet" href="css/regist.css"/>
+  <STYLE>
+    video{
+      position:relative;
+      top:-50px;
+    }
+  </STYLE>
+</head>
+<body>
+<div class="video-frame container" poster="videos/home-hero-video-desktop-still.jpg">
+  <video class="center-block" autoplay loop src="Imgs/ccc.mp4"></video>
+</div>
+<div class="content reg-container">
+  <form class="form form-horizontal" action="#">
+    <div class="form-group">
+      <label class="col-md-2 control-label" for="username" >用户名:</label>
+      <div class="col-md-5">
+        <input id="username" type="text" class="form-control" name="name" autofocus placeholder="请输入用户名" required pattern="^[a-zA-Z0-9]{8,16}$">
+      </div>
+      <label id="usernameTip" class="col-md-5 hide control-default">请输入8至16位的英文或数字.</label>
+    </div>
+    <div class="form-group">
+      <label class="col-md-2 control-label" for="password">密码:</label>
+      <div class="col-md-5">
+        <input id="password" type="password" class="form-control" name="pwd" placeholder="请输入密码" required pattern="^[0-9]{6,12}$">
+      </div>
+      <label id="passwordTip" class="col-md-5 hide control-default">请输入6至12位的数字.</label>
+    </div>
+    <div class="form-group">
+      <label class="col-md-2 control-label"></label>
+      <div class="col-md-5">
+        <input type="submit" value="注册" class="btn btn-success btn-block" id="btn_login">
+      </div>
+    </div>
+  </form>
+  <script type="text/javascript" src="JS/jquery-1.11.3.js"></script>
+  <script>
+    var username = document.getElementById("username");
+    var usernameTip = document.getElementById("usernameTip");
+    //TODO 绑定获取焦点事件
+    username.onfocus = function(){
+      //TODO 显示提示信息
+      usernameTip.className = "col-md-5 show control-default";
+      usernameTip.innerHTML = "请输入8至16位的英文或数字.";
+    }
+    //TODO 绑定失去焦点事件
+    username.onblur = function(){
+      if(username.validity.valid){
+        //TODO 表示输入正确
+        usernameTip.className = "col-md-5 show control-success";
+        usernameTip.innerHTML = "用户名输入正确";
+      }else if(username.validity.valueMissing){
+        //TODO 表示值为空
+        usernameTip.className = "col-md-5 show control-error";
+        usernameTip.innerHTML = "用户名不能为空";
+      }else if(username.validity.patternMismatch){
+        //TODO 表示正则不匹配
+        usernameTip.className = "col-md-5 show control-error";
+        usernameTip.innerHTML = "用户名输入不正确";
+      }
+    }
+
+
+    //TODO 密码的表单验证
+    var password = document.getElementById("password");
+    var passwordTip = document.getElementById("passwordTip");
+    password.onfocus = function(){
+      //TODO 显示提示信息
+      passwordTip.className = "col-md-5 show control-default";
+      passwordTip.innerHTML = "请输入6至12位的数字.";
+    }
+    password.onblur = function(){
+      if(password.validity.valid){
+        passwordTip.className = "col-md-5 show control-success";
+        passwordTip.innerHTML = "密码输入正确";
+      }else if(password.validity.valueMissing){
+        passwordTip.className = "col-md-5 show control-error";
+        passwordTip.innerHTML = "密码不能为空";
+      }else if(password.validity.patternMismatch){
+        passwordTip.className = "col-md-5 show control-error";
+        passwordTip.innerHTML = "密码输入不正确";
+      }
+    }
+
+    var options = {
+      elem : document.getElementById("password"),
+      elemTip : document.getElementById("passwordTip"),
+      msg : document.getElementById("passwordTip").innerHTML,
+      elemText : "密码"
+    }
+    validityForm(options);
+
+  </script>
+  
+  <script type="text/javascript">	
+	var loginName = null;  //全局变量，当前登录的用户名
+	var loginUid = null;    //全局变量，当前登录的用户编号
+	$('#btn_login').click(function(){
+		var n=$('[name="name"]').val();
+		var p=$('[name="pwd"]').val();
+		$.ajax({
+			type:'post',
+			url:'data/login.php',
+			data:{name:n,pwd:p},
+			success:function(data){
+				if(data.cold<0){
+					console.log("失败");
+				}else{
+					console.log("成功");
+				 loginName = data.name;
+				 loginUid =data.pwd;
+				}
+			}
+			error:function(){
+				alert("未传入php")
+			}
+	})
+	
+	
+  </script>
+</div>
+</body>
+</html>

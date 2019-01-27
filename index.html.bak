@@ -1,0 +1,1535 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>郑州商城</title>
+		<link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="JS/jquery-1.11.3.js"></script>
+		</head>
+	<body>
+		<!-- 满屏覆盖层 -->
+		<div id="cover" class="">
+			<div id="covering">
+				<span class="rf reg">&times;</span>
+				<img src="Imgs/header/masddddk.png" alt="" />
+			</div>
+		</div>
+		<!-- -----------------header部分 --------------------->
+		<div id="nav">
+			<div class="nav_all">
+				<span>Hi，欢迎来到 郑欧商城</span>
+				<ul class="nav_rig rf">
+					<li>
+						<a href="#">手机移动端</a>
+						<div id="nav_App">
+							<img src="Imgs/header/all_app.png" class="lf"alt="" />
+							<div class="lf">
+								<p>扫描二维码</p>
+								<p>下载手机客户端</p>
+								<p class="nav_App_cell">Android</p>
+								<p class="nav_App_cell">iPhone</p>
+							</div>
+						</div>
+					</li>
+					<li><a href="#">商家管理</a>
+						<div id="nav_mang">
+						<p><a href="#">商家登录</a></p>
+						</div>
+					</li>
+					<li>
+						<a href="#">我的订单</a>
+						<div id="nav_mang">
+							<p><a href="#">代付款订单</a></p>
+							<p><a href="#">待确认收货</a></p>
+							<p><a href="#">待交易评价</a></p>
+						</div> 
+					</li>
+					<li>
+						<a href="#">我的收藏</a>
+						<div id="nav_mang">
+							<p><a href="#">商品收藏</a></p>
+							<p><a href="#">店铺收藏</a></p>
+						</div>
+					</li>
+					<li>
+						<a href="#">客户服务</a>
+						<div id="nav_mang">
+							<p><a href="#">帮助中心</a></p>
+							<p><a href="#">售后服务</a></p>
+							<p><a href="#">客服中心</a></p>
+						</div>
+					</li>
+					<li>
+						<a href="#">关注我们</a>
+						<div id="nav_mang">
+							<ul class="nav_mang_as">
+								<li>扫描二维码</li>
+								<li>关注商城微信号</li>
+							</ul>
+							<img src="Imgs/header/229670131.jpg" alt="" />
+						</div>
+					</li>
+					<li><a href="login.html">登录注册</a></li>
+				</ul>	
+			</div>
+		</div>
+		<div id="header">
+			<img src="Imgs/header/0976.gif" class="lf"alt="" />
+			<img src="Imgs/header/359413.gif" class="lf"alt="" />
+			<div>
+				<input type="text" placeholder="请输入您要搜索商品关键字" />
+				<button>搜索</button>
+				<ul>
+					<li>热门搜索：</li>
+					<li><a href="#">1212</a></li>
+					<li><a href="#">WMF</a></li>
+					<li><a href="#">牛奶节</a></li>
+					<li><a href="#">护肤品</a></li>
+					<li><a href="#">派对节</a></li>
+					<li><a href="#">爱他美</a></li>
+				</ul>
+			</div>
+			<div class="rf">
+				<p class="rf">
+					<a href="#">购物车结算</a>					
+				</p>
+				<p class="rf">
+					<a href="#">我的商城</a>
+				</p>
+				</div>
+		</div>
+		<!--******************** banner部分***************** -->
+		<div id="banner">
+			<div id="ban_top_nav" class="clear">
+				<ul class="rf  ban_top_nav_01 clear">
+						<li class="tb">
+							<a href="#">首页</a>
+							<div id="ban_top_nav_mang">
+								<p><a href="#">饮食家具</a></p>
+								<p><a href="#">化妆护肤</a></p>
+								<p><a href="#">眼镜香包</a></p>
+							</div>
+						</li>
+						<li class="tbs">
+							<a href="detail.html">抢购</a>
+							<div id="ban_top_nav_mang">
+								<p><a href="#">代付款订单</a></p>
+								<p><a href="#">待确认收货</a></p>
+								<p><a href="#">待交易评价</a></p>
+							</div>
+						</li>
+						<li  class="tbs"><a href="#">领券中心</a></li>
+						<li  class="tbs">
+							<a href="detail.html">限时折扣</a>
+							<div id="ban_top_nav_mang">
+								<p><a href="#">全场九五折</a></p>
+								<p><a href="#">会员特价</a></p>
+								<p><a href="#">多买多送</a></p>
+							</div>
+						</li>
+						<li  class="tbs"><a href="detail.html">五一专场</a></li>
+						<li  class="tbs">
+							<a href="#">国家馆</a>
+							<div id="ban_top_nav_mang">
+								<p><a href="#">代付款订单</a></p>
+								<p><a href="#">待确认收货</a></p>
+								<p><a href="#">待交易评价</a></p>
+							</div>
+						</li>
+						<li  class="tbs"><a href="#">消费告知书</a></li>
+						<li  class="tbs"><a href="#">关于我们</a></li>
+						<li  class="tbs">
+							<a href="#">公司网站</a>
+							<div id="ban_top_nav_mang">
+								<p><a href="#">www.zho.com</a></p>
+							</div>
+						</li>
+						<li class="tbs"><a href="#">新闻报道</a></li>
+					</ul>	
+			</div>
+				<!------------------ 轮播------------- -->
+			<div id="slider">
+				<ul id="imgs"></ul>
+				<ul id="indexs"></ul>
+			</div>
+
+
+			<div id="ban_top_mid" >
+				<ul class="ban_top_mid_left lf">
+					<li class="ban_top_mid_like" id="fgh">
+						<a href="#">所有分类</a>
+						<div style="background:transparent"></div>
+					</li>
+					<li id="fgh">
+						<a href="#">美妆护品</a>
+						<div class="play" id="first">
+						<!-- 左侧部分 -->
+						<div class="first_left clear lf">
+							<ul class="first_left_one">
+								<li>
+									<span>洁面</span>
+									<span>面膜</span>
+								</li>
+							</ul>						
+							<ul class="first_left_two lf">
+								<li>面部护理</li>
+								<li>眼部护理</li>
+								<li>洗发护发</li>
+								<li>香水彩妆</li>
+								<li>身体护肤</li>
+								<li>口腔护理</li>
+							</ul>	
+							<ul class="first_left_three lf">
+								<li>
+									<ul>
+										<li><a href="#">洁面</a></li>
+										<li><a href="#">唇膏</a></li>
+										<li><a href="#">套装</a></li>
+										<li><a href="#">水乳</a></li>
+										<li><a href="#">面霜</a></li>
+										<li><a href="#">鼻贴</a></li>
+										<li><a href="#">精华</a></li>
+										<li><a href="#">卸妆</a></li>
+										<li><a href="#">护肤</a></li>
+										<li><a href="#">面膜</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="#">眼霜</a></li>
+										<li><a href="#">眼贴</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">洗发</a></li>
+										<li><a href="#">护发</a></li>
+										<li><a href="#">染发</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">气垫</a></li>
+										<li><a href="#">BB</a></li>
+										<li><a href="#">腮红</a></li>
+										<li><a href="#">隔离</a></li>
+										<li><a href="#">口红</a></li>
+										<li><a href="#">粉饼</a></li>
+										<li><a href="#">眉笔</a></li>
+										<li><a href="#">眼线笔</a></li>
+										<li><a href="#">睫毛膏</a></li>
+										<li><a href="#">其他</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">防晒</a></li>
+										<li><a href="#">香皂</a></li>
+										<li><a href="#">沐浴</a></li>
+										<li><a href="#">润肤</a></li>
+										<li><a href="#">护手</a></li>
+										<li><a href="#">精油</a></li>
+										<li><a href="#">颈霜</a></li>
+										<li><a href="#">磨砂膏</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">牙膏</a></li>
+										<li><a href="#">牙刷</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- 右侧部分 -->
+						<div class="first_rgt rf">
+							<img src="Imgs/header/05180936039606512.jpg" alt="" />
+							<img src="Imgs/header/05180941724071283.jpg" alt="" />
+						</div>
+						</div>
+					</li>
+					<li id="fgh">
+						<a href="#">母婴精品</a>
+						<div  id="second">
+							<!-- 左侧部分 -->
+						<div class="first_left clear lf">
+							<ul class="first_left_one">
+								<li>
+									<span>婴童</span>
+									<span>奶粉</span>
+								</li>
+							</ul>						
+							<ul class="first_left_two lf">
+								<li>婴童食品</li>
+								<li>婴童玩具</li>
+								<li>婴童洗护</li>
+								<li>婴童喂养</li>
+								<li>婴童用品</li>
+							</ul>	
+							<ul class="first_left_three lf">
+								<li>
+									<ul>
+										<li><a href="#">牛奶粉</a></li>
+										<li><a href="#">DHA</a></li>
+										<li><a href="#">钙铁锌</a></li>
+										<li><a href="#">维生素</a></li>
+										<li><a href="#">益生菌</a></li>
+										<li><a href="#">糖果</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="#">游泳圈</a></li>
+										<li><a href="#">益智类</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">婴儿护肤</a></li>
+										<li><a href="#">洗发沐浴</a></li>					
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">奶嘴</a></li>
+										<li><a href="#">奶瓶</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">纸尿裤</a></li>
+										<li><a href="#">拉拉裤</a></li>
+										<li><a href="#">止咳</a></li>
+									</ul>
+								</li>	
+							</ul>
+						</div>
+						<!-- 右侧部分 -->
+						<div class="first_rgt rf">
+							<img src="Imgs/header/web-5-53.png" alt="" />
+							<img src="Imgs/header/web-8-83.png" alt="" />
+						</div>
+					</div>
+					</li >
+					<li id="fgh">
+						<a href="#">食品饮料</a>
+						<div  id="thirth">
+							<!-- 左侧部分 -->
+						<div class="first_left clear lf">
+							<ul class="first_left_one">
+								<li>
+									<span>休闲</span>
+									<span>饮食</span>
+								</li>
+							</ul>						
+							<ul class="first_left_two lf">
+								<li>休闲食品</li>
+								<li>粮油调味</li>
+								<li>世界名酒</li>
+								<li>冲调饮品</li>
+							</ul>	
+							<ul class="first_left_three lf">
+								<li>
+									<ul>
+										<li><a href="detail.html">提拉米苏</a></li>
+										<li><a href="detail.html">谷物棒</a></li>
+										<li><a href="detail.html">零食</a></li>
+										<li><a href="detail.html">巧克力</a></li>
+										<li><a href="detail.html">饼干</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="#">食用油</a></li>
+										<li><a href="#">调味品</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">白酒</a></li>
+										<li><a href="#">红酒</a></li>	
+										<li><a href="#">啤酒</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">矿泉水</a></li>
+										<li><a href="#">茶饮</a></li>
+									</ul>
+								</li>	
+							</ul>
+						</div>
+						<!-- 右侧部分 -->
+						<div class="first_rgt rf">
+							<img src="Imgs/header/web-1-13.png" alt="" />
+							<img src="Imgs/header/2_0527699559_240.png" alt="" />
+						</div>
+					</div>
+					</li>
+					<li id="fgh">
+						<a href="#">生活家居</a>
+						<div  id="fourth">
+							<!-- 左侧部分 -->
+						<div class="first_left clear lf">
+							<ul class="first_left_one">
+								<li>
+									<span>婴童</span>
+									<span>奶粉</span>
+								</li>
+							</ul>						
+							<ul class="first_left_two lf">
+								<li>婴童食品</li>
+								<li>婴童玩具</li>
+								<li>婴童洗护</li>
+								<li>婴童喂养</li>
+								<li>婴童用品</li>
+							</ul>	
+							<ul class="first_left_three lf">
+								<li>
+									<ul>
+										<li><a href="#">牛奶粉</a></li>
+										<li><a href="#">DHA</a></li>
+										<li><a href="#">钙铁锌</a></li>
+										<li><a href="#">维生素</a></li>
+										<li><a href="#">益生菌</a></li>
+										<li><a href="#">糖果</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="#">游泳圈</a></li>
+										<li><a href="#">益智类</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">婴儿护肤</a></li>
+										<li><a href="#">洗发沐浴</a></li>					
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">奶嘴</a></li>
+										<li><a href="#">奶瓶</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">纸尿裤</a></li>
+										<li><a href="#">拉拉裤</a></li>
+										<li><a href="#">止咳</a></li>
+									</ul>
+								</li>	
+							</ul>
+						</div>
+						<!-- 右侧部分 -->
+						<div class="first_rgt rf">
+							<img src="Imgs/header/web-5-53.png" alt="" />
+							<img src="Imgs/header/4_052431354072.png" alt="" />
+						</div>
+					</div>
+					</li>
+					<li id="fgh">
+						<a href="#">箱包眼镜</a>
+						<div  id="fiveth">
+						<!-- 左侧部分 -->
+						<div class="first_left clear lf">
+							<ul class="first_left_one">
+								<li>
+									<span>婴童</span>
+									<span>奶粉</span>
+								</li>
+							</ul>						
+							<ul class="first_left_two lf">
+								<li>婴童食品</li>
+								<li>婴童玩具</li>
+								<li>婴童洗护</li>
+								<li>婴童喂养</li>
+								<li>婴童用品</li>
+							</ul>	
+							<ul class="first_left_three lf">
+								<li>
+									<ul>
+										<li><a href="#">牛奶粉</a></li>
+										<li><a href="#">DHA</a></li>
+										<li><a href="#">钙铁锌</a></li>
+										<li><a href="#">维生素</a></li>
+										<li><a href="#">益生菌</a></li>
+										<li><a href="#">糖果</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="#">游泳圈</a></li>
+										<li><a href="#">益智类</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">婴儿护肤</a></li>
+										<li><a href="#">洗发沐浴</a></li>					
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">奶嘴</a></li>
+										<li><a href="#">奶瓶</a></li>
+									</ul>
+								</li>	
+								<li>
+									<ul>
+										<li><a href="#">纸尿裤</a></li>
+										<li><a href="#">拉拉裤</a></li>
+										<li><a href="#">止咳</a></li>
+									</ul>
+								</li>	
+							</ul>
+						</div>
+						<!-- 右侧部分 -->
+						<div class="first_rgt rf">
+							<img src="Imgs/header/web-4-48-1.jpg" alt="" />
+							<img src="Imgs/header/05180941724071283.jpg" alt="" />
+						</div>
+					</div>
+					</li>
+				</ul>
+
+				<div class="ban_top_mid_ctn lf ">
+				</div>
+				<div class="ban_top_mid_rgt lf ">
+					<a href="#"><img src="Imgs/header/4_051562900340.png" title="国际商城" /></a>
+					<a href="#"><img src="Imgs/header/4_05285741_240.png" title="国际商城" /></a>
+				</div>
+				<div class="ban_top_mid_btm lf">
+					<ul class="ban_top_mid_btn">
+						<li><a href="#"><img src="Imgs/header/web-101-102-1-1.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="Imgs/header/web-101-102-1-2.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="Imgs/header/web-101-102-1-3.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="Imgs/header/web-101-102-1-4.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div id="banner_middle">
+			<ul class="banner_middle_pin">
+				<li>
+					<a href="#">美妆节</a>
+					<span></span>
+					<ul class="banner_middle_pin_bal  disb n1">
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧美妆节】【团购专享】DIA FORCE GOLD贵妇黄金眼</a></dd>
+								<dd>商城价：<b>￥520.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/6540.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧美妆节】【新品推荐】A.by BOM 美白淡斑水光三部</a></dd>
+								<dd>商城价：<b>￥482.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_0528461481490.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧美妆节】【团购专享】papa recipe春雨卢卡蜂蜜黑炭</a></dd>
+								<dd>商城价：<b>￥662.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05252845887554498_240.png" alt="" /></a></dt>
+								<dd><a href="#">【郑欧美妆节】【团购专享】 innisfree悦诗风吟真萃鲜润芦</a></dd>
+								<dd>商城价：<b>￥488.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05252842400770830_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧美妆节】【团购专享】Clinie可莱丝NMF水库面膜10盒</a></dd>
+								<dd>商城价：<b>￥808.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧美妆节】【团购专享】DIA FORCE GOLD贵妇黄金眼</a></dd>
+								<dd>商城价：<b>￥520.00</b></dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">红酒节</a>
+					<span></span>
+					<ul class="banner_middle_pin_bal disn n2">
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_0524140.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧红酒节】法国进口 普罗塞半甜白葡萄酒 红酒 750mL</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_0240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧红酒节】法国进口 贝特瑞-贝利公爵桃红葡萄酒 </a></dd>
+								<dd>商城价：<b>￥199.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧红酒节】1752西南法定产区葡萄酒 750mL/瓶</a></dd>
+								<dd>商城价：<b>￥162.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_053031522566480.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧红酒节】1752罗纳河谷法定产区葡萄酒 750mL/瓶</a></dd>
+								<dd>商城价：<b>￥228.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05340.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧红酒节】1752勃艮第法定产区葡萄酒 750mL/瓶</a></dd>
+								<dd>商城价：<b>￥189.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_0524140.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧红酒节】法国进口 普罗塞半甜白葡萄酒 红酒 750mL</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">冲调节</a>
+					<span></span>	
+					<ul class="banner_middle_pin_bal disn n3">
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05210486906753041_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧冲调节】德国进口 欧滋宝Turkuaz槐花蜜（郑欧班列)</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05210565179980250_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【【郑欧冲调节】德国进口 欧滋宝Turkuaz百花蜜（郑欧班列)</a></dd>
+								<dd>商城价：<b>￥199.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05210573282543783_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧冲调节】德国进口 欧滋宝Turkuaz黑森林蜂蜜（郑欧班列)</a></dd>
+								<dd>商城价：<b>￥162.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05265037687209318_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧冲调节】花泉蜂蜜柚子茶1kg蜂蜜大枣茶1kg方形礼盒</a></dd>
+								<dd>商城价：<b>￥228.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05265632920234706_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧冲调节】花泉蜂蜜柚子茶1kg蜂蜜柠檬茶1kg方形礼盒</a></dd>
+								<dd>商城价：<b>￥189.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/2_05210486906753041_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【郑欧冲调节】德国进口 欧滋宝Turkuaz槐花蜜（郑欧班列)</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">亲缘配方</a>
+					<span></span>	
+					<ul class="banner_middle_pin_bal disn n4">
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05243134322125961_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">德国爱他美奶粉PRE段两盒装 欧洲团爱他美（跨境直邮）750mL</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05243134844025322_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">德国爱他美奶粉PRE段两盒装 欧洲团爱他美（跨境直邮）</a></dd>
+								<dd>商城价：<b>￥199.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05243135072481649_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">德国爱他美奶粉PRE段两盒装 欧洲团爱他美（跨境直邮）</a></dd>
+								<dd>商城价：<b>￥162.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05243135294485957_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">德国爱他美奶粉PRE段两盒装 欧洲团爱他美（跨境直邮）</a></dd>
+								<dd>商城价：<b>￥228.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05243135407297448_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">德国爱他美奶粉PRE段两盒装 欧洲团爱他美（跨境直邮）</a></dd>
+								<dd>商城价：<b>￥189.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05243134322125961_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">德国爱他美奶粉PRE段两盒装 欧洲团爱他美（跨境直邮）750mL</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">邂“后”</a>
+					<span></span>
+					<ul class="banner_middle_pin_bal  disn n5">
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190628871827287_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【WHOO后秘贴密贴自生三合一精华4件套装 4瓶/盒</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190616039320214_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后拱辰享气韵生气津阴阳平衡水乳面霜3件套装</a></dd>
+								<dd>商城价：<b>￥199.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190611171891372_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后津率享经典水乳面霜3件套 6瓶/盒</a></dd>
+								<dd>商城价：<b>￥162.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190606864320798_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后拱辰享水妍水乳面霜4件套 4瓶/盒</a></dd>
+								<dd>商城价：<b>￥228.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05252918964037117_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后津率享红华凝香洁面乳 180ml/盒</a></dd>
+								<dd>商城价：<b>￥189.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190628871827287_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【WHOO后秘贴密贴自生三合一精华4件套装 4瓶/盒</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">相遇好</a>
+					<span></span>
+					<ul class="banner_middle_pin_bal  disn n6">
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190628871827287_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【WHOO后秘贴密贴自生三合一精华4件套装 4瓶/盒</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190616039320214_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后拱辰享气韵生气津阴阳平衡水乳面霜3件套装</a></dd>
+								<dd>商城价：<b>￥199.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190611171891372_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后津率享经典水乳面霜3件套 6瓶/盒</a></dd>
+								<dd>商城价：<b>￥162.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190606864320798_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后拱辰享水妍水乳面霜4件套 4瓶/盒</a></dd>
+								<dd>商城价：<b>￥228.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05252918964037117_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">WHOO后津率享红华凝香洁面乳 180ml/盒</a></dd>
+								<dd>商城价：<b>￥189.00</b></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt><a href="#"><img src="Imgs/header/4_05190628871827287_240.jpg" alt="" /></a></dt>
+								<dd><a href="#">【WHOO后秘贴密贴自生三合一精华4件套装 4瓶/盒</a></dd>
+								<dd>商城价：<b>￥220.00</b></dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<h1 >
+				<a href="#">
+					<img src="Imgs/header/05338457292839442.jpg" />
+				</a>
+			</h1>
+		</div>
+				<!-- 楼层列表 -->
+		<ul id="floor_list">
+			<li>1F</li>
+			<li>2F</li>
+			<li>3F</li>
+			<li>4F</li>
+			<li>5F</li>
+			<li>6F</li>
+			<li>7F</li>
+		</ul>
+		<!--===================一楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top">				
+				<span class="lf floor_top_one">1F Whoo 后</span>
+				<ul class="floor_top_mid lf">
+					<li class="img1"><b>商品推荐</b><i></i></li>
+					<li ><b>婴儿用品</b><i></i></li>
+					<!-- <li class="img3"><b>进口奶粉</b><i></i></li> -->
+				</ul>
+				<ul class="floor_top_rgt rf">
+					<li><a href="detail.html">牛栏</a></li>
+					<li><a href="detail.html">爱他美</a></li>
+					<li><a href="detail.html">维蕾德</a></li>
+					<li><a href="detail.html">Hippx喜宝</a></li>
+					<li><a href="detail.html">爱可妈咪爱</a></li>
+					<li><a href="detail.html">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left lf">
+					<ul class="clear">
+						<li><a href="#">套装</a></li>
+						<li><a href="detail.html">洁面</a></li>
+						<li><a href="#">美容</a></li>
+						<li><a href="detail.html">香水</a></li>
+						<li><a href="#">保湿</a></li>
+						<li><a href="#">去油</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header//web-6-63.png" alt="" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="detail.html">WHOO后秘贴密贴自生三合一精华4件套装 4瓶/盒</a>
+					</p>
+					<p>
+						<a href="#">WHOO后拱辰享气韵生气津阴阳平衡水乳面霜3件套装 6瓶/盒</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-8-88-1.jpg" class="disn img11"/>
+					<img src="Imgs/header/web-6-68-1.jpg"  class="img2" />
+					<img src="Imgs/header/4_05250308682702361.jpg"  class="disn img33" />
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="detail.html"><img src="Imgs/header/4_05190630744123498_240.jpg" alt="" /></a></dl>
+							<dt>WHOO后拱辰享雪水乳面</dt>
+							<dd><b>&yen;925.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05224940497793505_240.jpg" alt="" /></a></dl>
+							<dt>WHOO后津率享经典水乳</dt>
+							<dd><b>&yen;101.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05190616039320214_240.jpg" alt="" /></a></dl>
+							<dt>WHOO后秘贴密贴</dt>
+							<dd><b>&yen;898.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05190606864320798_240.jpg" alt="" /></a></dl>
+							<dt>WHOO后拱辰享雪水乳面</dt>
+							<dd><b>&yen;925.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05190611171891372_240.jpg" alt="" /></a></dl>
+							<dt>WHOO后拱辰享气韵生气水乳面</dt>
+							<dd><b>&yen;858.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="detail.html"><img src="Imgs/header/4_05190630744123498_240.jpg" alt="" /></a></dl>
+							<dt>WHOO后拱辰享清洁保湿水乳面</dt>
+							<dd><b>&yen;200.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    <!--=================== 二楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top a1">
+				<span class="lf floor_top_two">2F 母婴用品</span>
+				<ul class="floor_top_mid lf">
+					<li ><b>婴儿用品</b><i class="i1"></i></li>			
+				</ul>
+				<ul class="floor_top_rgt rf">
+					<li><a href="#">牛栏</a></li>
+					<li><a href="detail.html">爱他美</a></li>
+					<li><a href="detail.html">维蕾德</a></li>
+					<li><a href="#">Hippx喜宝</a></li>
+					<li><a href="detail.html">爱可妈咪爱</a></li>
+					<li><a href="detail.html">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left  V1 lf">
+					<ul class="clear">
+						<li><a href="#">奶粉</a></li>
+						<li><a href="detail.html">喂养用品</a></li>
+						<li><a href="#">婴儿用品</a></li>
+						<li><a href="detail.html">婴儿食品</a></li>
+						<li><a href="#">婴儿玩具</a></li>
+						<li><a href="#">孕产妇用品</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header/web-8-83.png" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="#">德国爱他美奶粉1+段两盒装</a>
+					</p>
+					<p>
+						<a href="detail.html">德国爱他美奶粉2段两盒装</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-6-68-1.jpg" class="disn img11"/>
+					<img src="Imgs/header/web-8-88-1.jpg"  class="img2"/>
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05243135510016776_240.jpg" alt="" /></a></dl>
+							<dt>德国爱他美奶粉1段 </dt>
+							<dd class="dd1"><b>&yen;321.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/18_05321028346072379_240.jpg" alt="" /></a></dl>
+							<dt>【手机APP专享】德国爱美奶</dt>
+							<dd class="dd1"><b>&yen;248.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/18_05242403666359760_240.jpg" alt="" /></a></dl>
+							<dt>【保税区发货】新西兰</dt>
+							<dd class="dd1"><b>&yen;220.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/18_05244137077297946_240.jpg" alt="" /></a></dl>
+							<dt>荷兰佳贝艾特Kabrita羊奶...</dt>
+							<dd class="dd1"><b>&yen;270.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/18_05228492924584918_240.png" alt="" /></a></dl>
+							<dt>【保税区发货】英国原装</dt>
+							<dd class="dd1"><b>&yen;320.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/18_05229339716371404_240.png" alt="" /></a></dl>
+							<dt>【保税区发货】周末大酬宾</dt>
+							<dd class="dd1"><b>&yen;190.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--===================三楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top a2">
+				<span class="lf floor_top_thr">3F 悦妆风吟</span>
+				<ul class="floor_top_mid lf">
+					<li class="img1"><b>商品推荐</b><i class="i2"></i></li>		
+				</ul>
+				<ul class="floor_top_rgt  rf">
+					<li><a href="#">Missha/谜尚</a></li>
+					<li><a href="#">LANEIGE</a></li>
+					<li><a href="#">IOPE</a></li>
+					<li><a href="#">Sulwhasoo</a></li>
+					<li><a href="#">SU-M 37°</a></li>
+					<li><a href="#">It's skin</a></li>
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left V2 lf">
+					<ul class="clear">
+						<li><a href="#">面部护理</a></li>
+						<li><a href="#">眼部护理</a></li>
+						<li><a href="#">洗发护发</a></li>
+						<li><a href="#">香水彩妆</a></li>
+						<li><a href="#">身体护肤</a></li>
+						<li><a href="#">口腔护理</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header//web-5-53.png" alt="" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="#">【买二送芦荟胶】SNP燕窝芦...</a>
+					</p>
+					<p>
+						<a href="#">【团购专享】春雨五光美白蜂...</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-4-48-1.jpg"/>
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05285639825054741_240.jpg" alt="" /></a></dl>
+							<dt>Innisfree悦诗风吟绿茶精</dt>
+							<dd class="dd2"><b>&yen;120.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05336557717296106_240.jpg" alt="" /></a></dl>
+							<dt>innisfree悦诗风吟火山岩</dt>
+							<dd class="dd2"><b>&yen;156.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05175823280735100_240.jpg" alt="" /></a></dl>
+							<dt>innisfree悦诗风吟真萃鲜</dt>
+							<dd class="dd2"><b>&yen;100.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05342505028726621_240.jpg" alt="" /></a></dl>
+							<dt>Innisfree悦诗风吟火山岩</dt>
+							<dd class="dd2"><b>&yen;85.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05156290034174631_240.jpg" alt="" /></a></dl>
+							<dt>【1212】innisfree悦诗风</dt>
+							<dd class="dd2"><b>&yen;124.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05252845887554498_240.png" alt="" /></a></dl>
+							<dt>innisfree悦诗风吟绿茶精萃</dt>
+							<dd class="dd2"><b>&yen;99.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--===================四楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top a3">
+				<span class="lf floor_top_four">4F 美妆个护</span>
+				<ul class="floor_top_mid lf">
+					<li class="img1"><b>商品推荐</b><i class="i3"></i></li>		
+				</ul>
+				<ul class="floor_top_rgt  rf">
+					<li><a href="#">悦诗风吟 </a></li>
+					<li><a href="#">可莱丝</a></li>
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left V3 lf">
+					<ul class="clear">
+						<li><a href="#">面部护理</a></li>
+						<li><a href="#">眼部护理</a></li>
+						<li><a href="#">洗发护发</a></li>
+						<li><a href="#">香水彩妆</a></li>
+						<li><a href="#">身体护肤</a></li>
+						<li><a href="#">口腔护理</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header//web-5-53.png" alt="" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="#">【买二送芦荟胶】SNP燕窝芦...</a>
+					</p>
+					<p>
+						<a href="#">【团购专享】春雨五光美白蜂...</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-5-58-1.jpg"/>
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05241348225227913_240.jpg" alt="" /></a></dl>
+							<dt>Innisfree悦诗风吟绿茶精</dt>
+							<dd class="dd3"><b>&yen;120.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05224949460766841_240.jpg" alt="" /></a></dl>
+							<dt>innisfree悦诗风吟火山岩</dt>
+							<dd class="dd3"><b>&yen;156.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05191259862489537_240.jpg" alt="" /></a></dl>
+							<dt>innisfree悦诗风吟真萃鲜</dt>
+							<dd class="dd3"><b>&yen;100.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05314861364423695_240.jpg" alt="" /></a></dl>
+							<dt>Innisfree悦诗风吟火山岩</dt>
+							<dd class="dd3"><b>&yen;85.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05190645470701035_240.jpg" alt="" /></a></dl>
+							<dt>【1212】innisfree悦诗风</dt>
+							<dd class="dd3"><b>&yen;124.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/4_05191252385978921_240.jpg" alt="" /></a></dl>
+							<dt>innisfree悦诗风吟绿茶精萃</dt>
+							<dd class="dd3"><b>&yen;99.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--===================五楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top a4">
+				<span class="lf floor_top_five">5F 美味饮食</span>
+				<ul class="floor_top_mid lf">
+					<li class="img1"><b>商品推荐</b><i class="i4"></i></li>		
+				</ul>
+				<ul class="floor_top_rgt  rf">
+					<li><a href="#">快乐猴 </a></li>
+					<li><a href="#">萨乌什金</a></li>
+					<li><a href="#">萨淇 </a></li>
+					<li><a href="#">祖母奶罐</a></li>
+					<li><a href="#">好特思</a></li>
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left V4 lf">
+					<ul class="clear">
+						<li><a href="#">饮料</a></li>
+						<li><a href="#">乳品</a></li>
+						<li><a href="#">矿泉水</a></li>
+						<li><a href="#">礼盒</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header/web-1-13.png" alt="" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="#">【郑欧牛奶节】白俄罗斯进口...</a>
+					</p>
+					<p>
+						<a href="#">【郑欧牛奶节】白俄罗斯进口...</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-1-18-2.jpg"/>
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05233986999571939_240.jpg" alt="" /></a></dl>
+							<dt>德国进口Glockengold格</dt>
+							<dd class="dd4"><b>&yen;12.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05211326203468681_240.jpg" alt="" /></a></dl>
+							<dt>【郑欧果汁节】白俄罗斯</dt>
+							<dd class="dd4"><b>&yen;56.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05304511134391867_240.jpg" alt="" /></a></dl>
+							<dt>【加价购】英国快乐猴纯</dt>
+							<dd class="dd4"><b>&yen;18.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05295858838057411_240.jpg" alt="" /></a></dl>
+							<dt>【精选低价】波兰进口好</dt>
+							<dd class="dd4"><b>&yen;25.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05165288268405353_240.jpg" alt="" /></a></dl>
+							<dt>【加价购】波兰进口好特</dt>
+							<dd class="dd4"><b>&yen;24.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05304512203399145_240.jpg" alt="" /></a></dl>
+							<dt>【加价购】白俄罗斯原装</dt>
+							<dd class="dd4"><b>&yen;19.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--===================六楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top a5">
+				<span class="lf floor_top_six">6F 进口名酒</span>
+				<ul class="floor_top_mid lf">
+					<li class="img1"><b>商品推荐</b><i class="i5"></i></li>	
+					<li ><b>红酒</b><i class="i5"></i></li>
+				</ul>
+				<ul class="floor_top_rgt  rf">
+					<li><a href="#">1752</a></li>
+					<li><a href="#">沙皇草地</a></li>
+					<li><a href="#">黄金野牛</a></li>
+					<li><a href="#">熊穴</a></li>
+					<li><a href="#">俱乐部</a></li>
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left V6 lf">
+					<ul class="clear">
+						<li><a href="#">白酒</a></li>
+						<li><a href="#">红酒</a></li>
+						<li><a href="#">啤酒</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header/web-2-23.png" alt="" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="#">【郑欧红酒节】1752罗纳河...</a>
+					</p>
+					<p>
+						<a href="#">【郑欧红酒节】1752罗纳河....</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-2-28-1.jpg"/>
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05340.jpg" alt="" /></a></dl>
+							<dt>德国进口Glockengold格</dt>
+							<dd class="dd4"><b>&yen;12.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_0524140.jpg" alt="" /></a></dl>
+							<dt>【郑欧果汁节】白俄罗斯</dt>
+							<dd class="dd4"><b>&yen;56.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_053031522566480.jpg" alt="" /></a></dl>
+							<dt>【加价购】英国快乐猴纯</dt>
+							<dd class="dd4"><b>&yen;18.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_0240.jpg" alt="" /></a></dl>
+							<dt>【精选低价】波兰进口好</dt>
+							<dd class="dd4"><b>&yen;25.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_053031522566480.jpg" alt="" /></a></dl>
+							<dt>【加价购】波兰进口好特</dt>
+							<dd class="dd4"><b>&yen;24.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_0240.jpg" alt="" /></a></dl>
+							<dt>【加价购】白俄罗斯原装</dt>
+							<dd class="dd4"><b>&yen;19.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			<!--===================七楼 =========++++++++++++++++++++++++======-->
+		<div id="floor">
+			<div class="floor_top a6">
+				<span class="lf floor_top_sev">6F 进口名酒</span>
+				<ul class="floor_top_mid lf">
+					<li class="img1"><b>商品推荐</b><i class="i6"></i></li>	
+					<li ><b>巧克力</b><i class="i6"></i></li>
+				</ul>
+				<ul class="floor_top_rgt  rf">
+					<li><a href="#">帕帕姬娜</a></li>
+					<li><a href="#">COSMOS</a></li>
+					<li><a href="#">哇噢</a></li>
+					<li><a href="#">更多</a></li>
+				</ul>
+			</div>
+			<div class="floor_btm">
+				<div class="floor_btm_left V7 lf">
+					<ul class="clear">
+						<li><a href="#">休闲零食</a></li>
+						<li><a href="#">糖果</a></li>
+						<li><a href="#">巧克力</a></li>
+						<li><a href="#">饼干</a></li>
+						<li><a href="#">谷物棒</a></li>
+					</ul>
+					<div >
+						<a href="#">
+							<img src="Imgs/header/web-3-33.jpg" alt="" />
+						</a>
+					</div>					
+					<h4>热卖促销：</h4>
+					<p>
+						<a href="#">波兰进口 格雷斯克全家巧克力...</a>
+					</p>
+					<p>
+						<a href="#">韩国进口 玉童子杏仁海苔夹巧...</a>
+					</p>		
+				</div>
+				<div class="floor_btm_mdl lf">
+					<img src="Imgs/header/web-2-28-1.jpg"/>
+				</div>
+				<div class="floor_btm_rgt lf">
+					<ul>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05241397472907160_240.jpg" alt="" /></a></dl>
+							<dt>【郑欧零食街】波兰进口</dt>
+							<dd class="dd5"><b>&yen;10.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05241399916699830_240.jpg" alt="" /></a></dl>
+							<dt>【郑欧零食街】波兰进口</dt>
+							<dd class="dd5"><b>&yen;10.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05319306092248417_240.jpg" alt="" /></a></dl>
+							<dt>波兰进口哇噢夹心超大巧</dt>
+							<dd class="dd5"><b>&yen;8.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05276995241464259_240.jpg" alt="" /></a></dl>
+							<dt>【郑欧零食街】波兰进口</dt>
+							<dd class="dd5"><b>&yen;5.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05314862450574231_240.jpg" alt="" /></a></dl>
+							<dt>【郑欧零食街】波兰进口</dt>
+							<dd class="dd5"><b>&yen;4.00</b></dd>
+						</li>
+						<li>
+							<dl><a href="#"><img src="Imgs/header/2_05314783678981497_240.jpg" alt="" /></a></dl>
+							<dt>波兰进口哇噢夹心超大巧</dt>
+							<dd class="dd5"><b>&yen;9.00</b></dd>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="banner_botton">			
+			<div class="banner_botton_left lf">
+				<p>大家购买了</p>
+				<div class="banner_botn_lef ">
+					<ul class="run">
+						<li>
+							<ul class="run_fixed">
+								<li><div class="lf" ><img src="Imgs/header/2_05342695457433794.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342695821259246.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342684705120415.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="run_fixed">
+								<li><div class="lf" ><img src="Imgs/header/2_05342724476407926.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342695664376784.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342684868119235.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="run_fixed">
+								<li><div class="lf" ><img src="Imgs/header/2_05342684545540293.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342691013488565.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342724775316434.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="run_fixed">
+								<li><div class="lf" ><img src="Imgs/header/2_05342724988455363.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342685205604315.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342651529890155.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="run_fixed">
+								<li><div class="lf" ><img src="Imgs/header/2_05342685025654079.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342785918397026.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342651128595918.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="run_fixed">
+								<li><div class="lf" ><img src="Imgs/header/2_05342695457433794.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342695821259246.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+								<li><div class="lf" ><img src="Imgs/header/2_05342684705120415.jpg"/></div><p class="lf">13**** 购买了<br/>【1212震撼来临】好特思100%金苹果汁1L*2瓶</p></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="banner_botton_rgt rf">
+				<div class="before"><img src="Imgs/header/4_05156290034174631_240.jpg" alt="" /></div>
+				<div class="after"><img src="Imgs/header/4_05285639825054741_240.jpg" alt="" /></div>
+			</div>
+		</div>
+		<!-- --------------------------------------footer部分------------------------- -->
+		<footer>
+			<div id="foot">
+				<ul class="foot_top">
+					<li>	
+						<dl><img src="Imgs/header/a80aad5ef161ab996450.png" alt="" /></dl>
+						<dt><b>海外直采</b></dt>
+						<dd>诚信商家，正规渠道</dd>
+					</li>
+					<li>
+						<dl><img src="Imgs/header/d2ea72454fa65a664760.png" alt="" /></dl>
+						<dt><b>真品货源</b></dt>
+						<dd>正品，优质，放心</dd>
+					</li>
+					<li>
+						<dl><img src="Imgs/header/16c0e34112681b777940.png" alt="" /></dl>
+						<dt><b>正品保障</b></dt>
+						<dd>品质护航，购物无忧</dd>
+					</li>
+					<li>
+						<dl><img src="Imgs/header/aa5524a7be5667d43050.png" alt="" /></dl>
+						<dt><b>数据互通</b></dt>
+						<dd>产品溯源，实时追踪</dd>
+					</li>
+					<li>
+						<dl><img src="Imgs/header/d7ab62369e5717835250.png" alt="" /></dl>
+						<dt><b>闪电收货</b></dt>
+						<dd>为您呈现更快更好服务</dd>
+						<li>
+							<dl><img src="Imgs/header/16c0e34112681b777940.png" alt="" /></dl>
+							<dt><b>正品保障</b></dt>
+							<dd>品质护航，购物无忧</dd>
+						</li>
+					</li>
+				</ul>
+				<ul class="foot_btm">
+					<li><h4>帮助中心</h4></li>
+					<li><a href="">如何购买下单</a></li>
+					<li><a href="">积分兑换说明</a></li>
+					<li><a href="">忘记密码怎么办</a></li>
+					<li><a href="">积分细则</a></li>
+					<li><a href="">如何搜索欲购商品</a></li>
+				</ul>
+				<ul class="foot_btm">
+					<li><h4>物流配送</h4></li>
+					<li><a href="">订单发货时效</a></li>
+					<li><a href="">积分兑换说明</a></li>
+					<li><a href="">合作快递公司</a></li>
+					<li><a href="">上门自提</a></li>
+				</ul>
+				<ul class="foot_btm">
+					<li><h4>支付方式</h4></li>
+					<li><a href="">公司转账</a></li>
+					<li><a href="">分期付款</a></li>
+					<li><a href="">支付宝付款</a></li>
+				</ul>
+				<ul class="foot_btm">
+					<li><h4>售后服务</h4></li>
+					<li><a href="">退换货流程</a></li>
+					<li><a href="">退换货政策</a></li>
+					<li><a href="">余额提现流程</a></li>
+				</ul>
+				<ul class="foot_btm">
+					<li><h4>客服中心</h4></li>
+					<li><a href="">联系客服</a></li>
+					<li><a href="">如何修改登录密码</a></li>
+					<li><a href="">如何注册会员</a></li>
+				</ul>
+				<ul class="foot_btm">
+					<li><h4>关于我们</h4></li>
+					<li><a href="">郑欧班列提前完成全年目标</a></li>
+				</ul>
+				<div class="foot_btm_rgt lf">
+					<h2>400-6822-718</h2>
+					<p>zosc@zih718.com</p>
+					<div class="lf">
+						<img src="Imgs/header/229670131.jpg"  />
+					</div>
+					<ul class="zosc lf">
+						<li><a href="#">新浪微博</a></li>
+						<li><a href="#">腾讯微博</a></li>
+					</ul>
+				</div>
+			</div>
+			<i></i>
+			<div></div>
+			<div id="bottom">
+				<ul>
+					<li>
+						<a href="#">首页</a>|
+						<a href="#">招商加盟</a>|
+						<a href="#"> 联系我们</a>|
+						<a href="#"> 物流自取</a>|
+						<a href="#"> 班列订舱</a>						
+					</li>
+					<li>
+						<span>Copyright 2015 718shop All rights .</span>
+					</li>
+					<li>
+						<span>豫B2-20150110</span>
+					</li>
+				</ul>			
+			</div>
+		</footer>
+		<script type="text/javascript">					
+		</script>
+		<script type="text/javascript" src="JS/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="JS/index.js"></script>
+		<script type="text/javascript">
+			$('div#ban_top_nav li').click(function(){
+				var act=$(this).index();
+				$(".tb").removeClass("tb").addClass("tbs");
+				$(this).removeClass("tbs").addClass("tb");
+				
+			})
+		</script>
+	</body>
+</html>
